@@ -662,6 +662,22 @@ input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
 .product-main-img {
     margin-bottom: 20px;
 }
+
+.imagem {
+    height: 50%;
+    width: 100%;
+    display:flex;
+    margin-left:167px ;
+}
+.promocao {
+    display: flex;
+    margin-top: 20px;
+    position:initial;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+
 .product-gallery {
     margin-bottom: 25px;
     margin-left: -15px;
