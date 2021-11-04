@@ -97,7 +97,8 @@ z-index: 999;}
     color: #3c8af1;
 }
 .shopping-item {
-    border: 1px solid #ddd;
+    border: 1px solid #000;
+    background-color: #fff;
     float: right;
     font-size: 18px;
     margin-top: 40px;
@@ -105,7 +106,7 @@ z-index: 999;}
     position: relative;
 }
 .shopping-item a {
-    color: #666;
+    color: #000;
 }
 .cart-amunt {
     color: #3c8af1;
@@ -195,8 +196,8 @@ z-index: 9;
   top: 0;
   width: 100%;
 }
-.slide-one {background-image: url(img/slide-1.jpg)}
-.slide-two {background-image: url(img/slide-2.jpg)}
+.slide-one {background-image: url(img/Computador.jpg)}
+.slide-two {background-image: url(img/Minecraft.jpg)}
 .slide-three {background-image: url(img/slide-3.jpg)}
 .slide-text {color: #fff;font-size: 18px;font-weight: 200}
 .slide-text h2 {
@@ -266,6 +267,9 @@ z-index: 9;
   text-align: center;
 }
 
+.latest-product .section-title{
+    color: white;
+}
 
 .product-f-image {
     position: relative;
