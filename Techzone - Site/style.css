@@ -311,7 +311,7 @@ z-index: 9;
   text-decoration: none;border-color: #444;
 }
 .product-carousel-price ins {
-  color: #3c8af1;
+  color: #fff;
   font-weight: 700;
   margin-right: 5px;
   text-decoration: none;
@@ -330,7 +330,7 @@ z-index: 9;
 
 
 .single-product h2 a {
-    color: #222;
+    color: white;
 }
 .single-product p {
     color: #3c8af1;
@@ -379,11 +379,57 @@ z-index: 9;
 
 .maincontent-area {padding-bottom: 170px}
 
+
+/*Login*/
+.account {
+    margin-left: 17%;
+}
+
+.account h2{
+  font-size: 3em;
+  color: #fff;
+  text-align:left;
+  font-weight: 600;
+  margin-bottom: 1em;
+  margin-left: 20%;
+  
+}
+.account-top span{
+	font-size:1em;
+	display: block;
+	padding: 0 0 0.5em;
+	color:#fff;
+}
+.account-top div{
+	padding:0.5em 0;
+}
+.account-top input[type="text"],
+.account-top textarea,.account-top input[type="password"]{
+	padding:1em;
+	width:100%;
+	background-color: white;
+	border: 1px solid #fff;	
+	outline:none;	
+	font-size:1em;	
+}
+
+.account-top input[type="submit"]{
+    margin-top: 4%;
+    margin-left: 20%;
+    width: 200px;
+}
+
+.account-top textarea{
+	resize:none;
+	height:60px;		
+}
+
 .product-wid-title {
   font-family: raleway;
   font-size: 30px;
   font-weight: 100;
   margin-bottom: 40px;
+  color: white;
 }
 
 
@@ -406,13 +452,13 @@ z-index: 9;
     margin-bottom: 10px;
 }
 .product-wid-price ins {
-    color: #3c8af1;
+    color: #fff;
     font-weight: 700;
     margin-right: 10px;
     text-decoration: none;
 }
 .single-wid-product h2 a {
-    color: #222;
+    color: #fff;
 }
 .single-wid-product h2 a:hover, .single-product h2 a:hover {
     color: #3c8af1;
@@ -628,10 +674,10 @@ input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
     margin-bottom: 10px;
 }
 .thubmnail-recent > h2 a {
-    color: #222;
+    color: #fff;
 }
 .product-sidebar-price > ins {
-    color: #3c8af1;
+    color: #fff;
     font-weight: 700;
     margin-right: 10px;
     text-decoration: none;
@@ -673,6 +719,7 @@ input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
     width: 100%;
     display:flex;
     margin-left:167px ;
+
 }
 .promocao {
     display: flex;
@@ -681,6 +728,7 @@ input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
     margin-left: 20px;
     margin-bottom: 70px;
     font-size: 18px;
+    color: white;
 }
 
 .product-gallery {
